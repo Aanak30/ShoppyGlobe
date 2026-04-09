@@ -7,7 +7,7 @@ const App = () => {
     <>
       <Header />
 
-      {/* ✅ Lazy loading wrapper */}
+      {/*  Lazy loading wrapper */}
       <Suspense fallback={<h2>Loading page...</h2>}>
         <Outlet />
       </Suspense>
